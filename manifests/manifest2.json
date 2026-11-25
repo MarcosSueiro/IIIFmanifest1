@@ -2,64 +2,8 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "id" : "https://MarcosSueiro.github.io/IIIFmanifest1/manifests/manifest2.json",
   "type" : "Manifest",
-  "summary" : {
-    "en" : [ "Two images side by side." ]
-  },
-  "requiredStatement" : {
-    "label" : {
-      "en" : [ "Attribution" ]
-    },
-    "value" : {
-      "en" : [ "Provided courtesy of very special sources" ]
-    }
-  },
-  "behavior" : [ "contiuous", "individuals" ],
-  "rights" : "http://creativecommons.org/licenses/by/4.0/",
-  "metadata" : [ {
-    "label" : {
-      "en" : [ "Creator" ],
-      "es" : [ "Autor" ]
-    },
-    "value" : {
-      "en" : [ "Famous photographer" ],
-      "es" : [ "Fotógrafo famosísimo" ]
-    }
-  }, {
-    "label" : {
-      "en" : [ "Source" ]
-    },
-    "value" : {
-      "en" : [ "Eighteenth-century sailor" ]
-    }
-  }, {
-    "label" : {
-      "en" : [ "Location" ]
-    },
-    "value" : {
-      "en" : [ "Japan" ]
-    }
-  } ],
-  "structures" : [ {
-    "id" : "http://example.org/iiif/book1/range/top",
-    "type" : "Range",
-    "label" : {
-      "en" : [ "Table of Content" ]
-    },
-    "viewingHint" : "top",
-    "items" : [ {
-      "id" : "http://example.org/iiif/book1/range/intro",
-      "type" : "Range",
-      "label" : {
-        "en" : [ "Introduction" ]
-      },
-      "items" : [ {
-        "id" : "$https://iiif.archive.org/iiif/img-0788_202611/canvas",
-        "type" : "Canvas"
-      } ]
-    } ]
-  } ],
   "label" : {
-    "en" : [ "Jolly good Manifest" ]
+    "en" : [ "Blank Manifest" ]
   },
   "items" : [ {
     "id" : "https://iiif.archive.org/iiif/img-0788_202611/canvas",
