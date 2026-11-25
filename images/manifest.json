@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://marcossueiro.github.io/IIIFmanifest1/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in MarcosSueiro/IIIFmanifest1 project"
+        ]
+    },
+    "items": []
+}
