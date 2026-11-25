@@ -1,0 +1,15 @@
+{
+  "id" : "https://MarcosSueiro.github.io/IIIFmanifest1/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in MarcosSueiro/IIIFmanifest1 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://MarcosSueiro.github.io/IIIFmanifest1/manifests/manifest2.json",
+    "label" : {
+      "en" : [ "Jolly good Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
