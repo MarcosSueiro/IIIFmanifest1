@@ -1,0 +1,204 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://MarcosSueiro.github.io/IIIFmanifest1/manifests/manifest2.json",
+  "type" : "Manifest",
+  "summary" : {
+    "en" : [ "Two images side by side." ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "Provided courtesy of very special sources" ]
+    }
+  },
+  "behavior" : [ "contiuous", "individuals" ],
+  "rights" : "http://creativecommons.org/licenses/by/4.0/",
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Creator" ],
+      "es" : [ "Autor" ]
+    },
+    "value" : {
+      "en" : [ "Famous photographer" ],
+      "es" : [ "Fotógrafo famosísimo" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Source" ]
+    },
+    "value" : {
+      "en" : [ "Eighteenth-century sailor" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Location" ]
+    },
+    "value" : {
+      "en" : [ "Japan" ]
+    }
+  } ],
+  "structures" : [ {
+    "id" : "http://example.org/iiif/book1/range/top",
+    "type" : "Range",
+    "label" : {
+      "en" : [ "Table of Content" ]
+    },
+    "viewingHint" : "top",
+    "items" : [ {
+      "id" : "http://example.org/iiif/book1/range/intro",
+      "type" : "Range",
+      "label" : {
+        "en" : [ "Introduction" ]
+      },
+      "items" : [ {
+        "id" : "$https://iiif.archive.org/iiif/img-0788_202611/canvas",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ],
+  "label" : {
+    "en" : [ "Jolly good Manifest" ]
+  },
+  "items" : [ {
+    "id" : "https://iiif.archive.org/iiif/img-0788_202611/canvas",
+    "type" : "Canvas",
+    "height" : 1536,
+    "width" : 2048,
+    "label" : {
+      "none" : [ "Page 1" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "identifier" ]
+      },
+      "value" : {
+        "none" : [ "img-0788_202611" ]
+      }
+    }, {
+      "label" : {
+        "none" : [ "mediatype" ]
+      },
+      "value" : {
+        "none" : [ "image" ]
+      }
+    }, {
+      "label" : {
+        "none" : [ "collection" ]
+      },
+      "value" : {
+        "none" : [ "opensource_image" ]
+      }
+    }, {
+      "label" : {
+        "none" : [ "scanner" ]
+      },
+      "value" : {
+        "none" : [ "Internet Archive HTML5 Uploader 1.7.0" ]
+      }
+    }, {
+      "label" : {
+        "none" : [ "subject" ]
+      },
+      "value" : {
+        "none" : [ "punk", "stores" ]
+      }
+    }, {
+      "label" : {
+        "none" : [ "title" ]
+      },
+      "value" : {
+        "none" : [ "IMG 0788" ]
+      }
+    }, {
+      "label" : {
+        "none" : [ "addeddate" ]
+      },
+      "value" : {
+        "none" : [ "2026-11-24 04:42:27" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Risky Drug Store punk shop, Niigata, Japan" ]
+    },
+    "rights" : "http://creativecommons.org/licenses/by-sa/4.0/",
+    "partOf" : [ {
+      "id" : "https://iiif.archive.org/iiif/img-0788_202611/manifest.json",
+      "type" : "Manifest",
+      "label" : {
+        "none" : [ "IMG 0788" ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "https://iiif.archive.org/iiif/img-0788_202611/annotationPage/1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.archive.org/iiif/img-0788_202611/annotation/1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif.archive.org/iiif/img-0788_202611/canvas",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/3/img-0788_202611%2FIMG_0788.JPG/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1536,
+          "width" : 2048,
+          "service" : [ {
+            "id" : "https://iiif.archive.org/image/iiif/3/img-0788_202611%2FIMG_0788.JPG",
+            "profile" : "level2",
+            "type" : "ImageService3"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://iiif-testing.sozialarchiv.ch/iiif/v2/canvas/attribution_0",
+    "type" : "Canvas",
+    "height" : 1450,
+    "width" : 1840,
+    "label" : {
+      "en" : [ "Page 2" ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "none" : [ "Attribution" ]
+      },
+      "value" : {
+        "none" : [ "ArchivesSpace" ]
+      }
+    },
+    "partOf" : [ {
+      "id" : "https://iiif-testing.sozialarchiv.ch/iiif/v2/manifest/attribution",
+      "type" : "Manifest",
+      "label" : {
+        "none" : [ "Image with metadata" ]
+      }
+    } ],
+    "items" : [ {
+      "id" : "https://iiif-testing.sozialarchiv.ch/iiif/v2/canvas/attribution_0/annotation-page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif-testing.sozialarchiv.ch/iiif/v2/annotation",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://iiif-testing.sozialarchiv.ch/iiif/v2/canvas/attribution_0",
+        "body" : {
+          "id" : "https://iiif-testing.sozialarchiv.ch/iiif/v2/image/attribution_0/full/!100,100/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1450,
+          "width" : 1840,
+          "service" : [ {
+            "@id" : "https://iiif-testing.sozialarchiv.ch/iiif/v2/image/attribution_0",
+            "@type" : "ImageService2",
+            "profile" : "level2",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1840,
+            "height" : 1450
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
