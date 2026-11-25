@@ -5,6 +5,23 @@
   "label" : {
     "en" : [ "Blank Manifest" ]
   },
+  "metadata": [
+    {
+      "label": { 
+        "en": [ 
+          "Creator" 
+          ],
+        "es": [
+          "Autor"
+        ] },
+      "value": { 
+        "en": [ 
+          "Famous photographer" 
+          ] ,
+        "es": [
+          "Fotógrafo famosísimo"
+        ]}
+    },
   "items" : [ {
     "id" : "https://iiif.archive.org/iiif/img-0788_202611/canvas",
     "type" : "Canvas",
